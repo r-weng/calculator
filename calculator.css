@@ -1,0 +1,65 @@
+body {
+  font-family: PT Sans, Arial;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 25px;
+}
+
+.result-container {
+  height: 2em;
+  white-space: nowrap;
+  overflow-x: auto;
+  display: block;
+
+  font-size: 40px;
+  border-bottom: 1px solid #eee;
+  text-align: right;
+
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 25px;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  margin-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row-container button {
+  font-family: PT Sans, Arial;
+  font-size: 2rem;
+  background-color: #f9f9f9;
+  transition: background 0.15s;
+
+  flex: 1 1 0;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.row-container button:hover {
+  background: #e0e0e0;
+}
+
+/* features to implement:
+  1. keyboard typing
+  2. add delete button
+*/
